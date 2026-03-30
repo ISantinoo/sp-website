@@ -14,3 +14,26 @@
     width: 100%;
     height: 715px;
 }
+.container-fluid{
+    text-align: center;
+}
+
+.hero-image {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  margin: 16px 10px;
+}
+.nikolas {
+    display: flex;
+    justify-content: center;   /* centers horizontally */
+    align-items: center;       /* optional: vertical alignment */
+    gap: 20px;                 /* space between images */
+    flex-wrap: wrap;           /* allows wrapping on smaller screens */
+}
+.container2 {
+  width: min(1800px, 92vw);
+  margin: 0 auto;
+}
